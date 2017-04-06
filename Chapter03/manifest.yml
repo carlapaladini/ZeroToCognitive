@@ -4,7 +4,7 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: ztoc-cpaladini
-  host: ztoc-cpaladini.mybluemix.net
+  host: ztoc-cpaladini
   disk_quota: 1024M
   services:
     - Speech to Text-n7
