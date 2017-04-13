@@ -10,4 +10,4 @@ applications:
     - Speech to Text-n7
     - Text to Speech-18
     - Natural Language Classifier-gs
-    - Cloudant NoSQL DB-vi
+    - Cloudant NoSQL DB-91
