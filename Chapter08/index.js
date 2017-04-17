@@ -76,8 +76,8 @@ app.get('/login*', function (req, res) {console.log("login session is: "+req.ses
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.set('appName', 'z2c-chapter08');
-app.set('port', appEnv.port);
-
+//app.set('port', appEnv.port);
+app.set('port', process.env.PORT || 6003);
 app.set('views', path.join(__dirname + '/HTML'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');

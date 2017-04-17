@@ -3,12 +3,12 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: Z2C
-  host: Z2C
+  name: ztoc-cpaladini
+  host: ztoc-cpaladini
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
-    - Text to Speech-xx
-    - Natural Language Classifier-xx
-    - Cloudant NoSQL DB-xx
-    - AlchemyAPI-xx
+    - Speech to Text-n7
+    - Text to Speech-18
+    - Natural Language Classifier-gs
+    - Cloudant NoSQL DB-91
+    - AlchemyAPI-ov
