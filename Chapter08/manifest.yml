@@ -11,4 +11,4 @@ applications:
     - Text to Speech-18
     - Natural Language Classifier-gs
     - Cloudant NoSQL DB-91
-    - AlchemyAPI-ov
+    - Discovery-ov
